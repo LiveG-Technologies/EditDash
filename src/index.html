@@ -14,9 +14,55 @@
             <div data-for="view">View</div>
         </section>
         <section id="menu">
-            <div data-page="home" data-page-default>Home</div>
-            <div data-page="insert">Insert</div>
-            <div data-page="view">View</div>
+            <div data-page="home" data-page-default>
+                <div class="menuSection">
+                    <div class="menuList">
+                        <div class="menuButton big"><i class="material-icons menuButtonIcon big">content_paste</i> Paste</div>
+                    </div>
+                    <div class="menuList">
+                        <div class="menuButton"><i class="material-icons menuButtonIcon">flip</i> Cut</div>
+                        <div class="menuButton"><i class="material-icons menuButtonIcon">filter_none</i> Copy</div>
+                        <div class="menuButton"><i class="material-icons menuButtonIcon">format_paint</i> Format Painter</div>
+                    </div>
+                </div>
+                <div class="menuSection">
+                    <div class="menuList">
+                        <input class="menuTextInput big" value="Roboto"></input>
+                        <input class="menuTextInput" value="16"></input><br>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_clear</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_bold</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_underline</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_italic</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">strikethrough_s</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">highlight</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_color_text</i></div><br>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">functions</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_quote</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_list_bulleted</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_list_numbered</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_align_left</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_align_center</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_align_right</i></div>
+                    </div>
+                </div>
+                <div class="menuSection">
+                    <div class="menuList">
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_indent_decrease</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_indent_increase</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_textdirection_l_to_r</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">format_textdirection_r_to_l</i></div>
+                        <div class="menuButton small"><i class="material-icons menuButtonIcon small">local_printshop</i></div>
+                        <div class="menuButton"><i class="material-icons menuButtonIcon">view_compact</i> Arrange Paragraphs</div>
+                        <div class="menuButton"><i class="material-icons menuButtonIcon">insert_drive_file</i> New Page</div>
+                    </div>
+                </div>
+            </div>
+            <div data-page="insert">
+                Insert
+            </div>
+            <div data-page="view">
+                View
+            </div>
         </section>
         <main id="main">
 
@@ -24,5 +70,6 @@
         <section id="status">
 
         </section>
+        <style id="toggleStyle"></style>
     </body>
 </html>
