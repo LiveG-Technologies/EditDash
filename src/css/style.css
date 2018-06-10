@@ -1,0 +1,32 @@
+* {
+    cursor: default;
+    user-select: none;
+}
+
+body {
+    background-color: #ff5656;
+}
+
+div[data-page] {
+    position: absolute;
+    background-color: #efefef;
+    top: 40px;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+}
+
+div[data-for] {
+    display: inline-block;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    padding-top: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+div[data-for].selected {
+    background-color: #efefef;
+}
